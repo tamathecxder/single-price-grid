@@ -40,3 +40,29 @@ body {
   justify-content: center;
   height: 100%;
 }
+
+.card-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: auto;
+  background-color: coral;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-price .card-head {
+  padding: 34px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-price .card-body {
+  padding: 34px;
+
+}
