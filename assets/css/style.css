@@ -54,7 +54,7 @@ body {
 }
 
 .card-price .card-head {
-  padding: 34px;
+  padding: 38px;
   width: 100%;
   background-color: #fff;
   display: flex;
@@ -62,7 +62,23 @@ body {
   gap: 4px;
 }
 
-.card-price .card-body {
-  padding: 34px;
-
+.card-price .card-head .main-text-header {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--cyan);
+  margin-bottom: 12px;
 }
+
+.card-price .card-head h3 {
+  font-size: 18px;
+  color: var(--bright-yellow);
+  margin-bottom: 10px;
+}
+
+.card-price .card-head p {
+  color: var(--grayish-blue);
+  font-weight: 400;
+  font-size: var(--standard-font-size);
+  line-height: 24px;
+}
+
