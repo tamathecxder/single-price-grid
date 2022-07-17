@@ -135,3 +135,21 @@
     line-height: 26px;
   }
 }
+
+/* Small screen */
+@media (min-width: 375px) and (max-width: 575px) {
+
+}
+
+/* Medium (tablets) screen */
+@media (min-width: 576px) and (max-width: 720px) {
+
+}
+
+@media (min-width: 721px) and (max-width: 930px) {
+
+}
+
+@media(min-width: 931px) and (max-width: 1280px) {
+  
+}
