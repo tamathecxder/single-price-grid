@@ -1,6 +1,26 @@
+
 /* CSS Reset */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--karla);
+  background-color: var(--light-gray);
+}
+
+.container {
+  width: 1440px;
+  height: 100vh;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.flexible-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
