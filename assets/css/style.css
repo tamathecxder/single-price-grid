@@ -1,3 +1,19 @@
+/* Karla Font: 400, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/* My own variables */
+:root {
+  /* primary */
+  --cyan: hsl(179, 64%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+
+  /* neutral */
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+
+  --standard-font-size: 16px;
+  --karla: 'Karla', sans-serif;
+}
 
 /* CSS Reset */
 * {
