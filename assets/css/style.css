@@ -151,4 +151,18 @@ body {
   width: 50%;
   background-color: var(--cyan);
   color: var(--light-gray);
+} 
+
+.card-price .card-body #why-us .section-text-header {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.card-price .card-body #why-us p {
+  font-size: 15px;
+  max-width: 75%;
+  color: var(--light-gray);
+  opacity: 0.8;
+  line-height: 26px;
 }
