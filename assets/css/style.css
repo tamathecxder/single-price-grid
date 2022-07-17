@@ -82,3 +82,23 @@ body {
   line-height: 24px;
 }
 
+.card-price .card-body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: none;
+}
+
+.card-price .card-body #monthly-subs {
+  padding: 38px;
+  width: 50%;
+  background-color: hsl(179, 70%, 36%);
+  color: #fff;
+}
+
+.card-price .card-body #why-us {
+  padding: 38px;
+  width: 50%;
+  background-color: var(--cyan);
+}
